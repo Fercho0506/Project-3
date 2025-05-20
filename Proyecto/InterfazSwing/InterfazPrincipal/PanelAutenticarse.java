@@ -6,6 +6,10 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 public class PanelAutenticarse extends JPanel{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JTextField usuario;
 	private JTextField password;
 	

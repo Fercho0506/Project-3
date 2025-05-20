@@ -49,5 +49,30 @@ public abstract class Empleado extends Usuario{
 			i++;
 		}
 	}
+
+	public Object getNombre() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getRol() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setNombre(String nuevoNombre) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setRol(String nuevoRol) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }

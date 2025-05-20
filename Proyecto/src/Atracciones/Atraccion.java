@@ -147,4 +147,6 @@ public abstract class Atraccion implements Serializable {
     {
         return nombre;
     }
+
+	public abstract void setTipo(String nuevoTipo);
 }

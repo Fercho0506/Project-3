@@ -154,12 +154,12 @@ public class Parque implements Serializable {
 		return usuarios.remove(usuario.getUsuario(), usuario);
 	}
 	
-	public void eliminarAtraccion(Atraccion atraccion) {
+	public void eliminarAtraccion(String nombre2) {
 		int i=0;
 		boolean noEncontrado= true;
 		while(i<atracciones.size() && noEncontrado) {
 			Atraccion atract= atracciones.get(i);
-			if (atraccion.equals(atract)) {
+			if (nombre2.equals(atract)) {
 				atracciones.remove(i);
 				noEncontrado=false;
 			}
@@ -420,6 +420,46 @@ public class Parque implements Serializable {
 
 	public void salvarData1() {
 	    Persistencia.guardarObjeto(this, "parque.bin");
+	}
+
+	public static Parque getInstance() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void crearAtraccion(String nombre2, String tipo, int capacidad2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Atraccion buscarAtraccionPorNombre(String nombre2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void crearEmpleado(String nombre2, String rol, String id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Empleado buscarEmpleadoPorId(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void eliminarEmpleado(String id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Object getTotalTiquetesVendidos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getIngresosTotales() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	

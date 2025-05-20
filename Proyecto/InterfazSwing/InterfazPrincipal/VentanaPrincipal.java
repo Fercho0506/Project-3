@@ -11,6 +11,10 @@ import Modelo.Parque;
 import Persistencia.Persistencia;
 
 public class VentanaPrincipal extends JFrame{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private static final String RUTA_ARCHIVO = "data/parque.bin";
 	private Parque parque;
 	private PanelOpciones panelOpciones;
