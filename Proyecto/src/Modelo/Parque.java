@@ -35,6 +35,16 @@ public class Parque implements Serializable {
 	private List<Atraccion> atracciones;
 	private List<Espectaculo> espectaculos;
 	private List<LugarServicio> lugaresServicios;
+
+	private String ubicacion;
+
+	private int empleadosMin;
+
+	private String exclusividad;
+
+	private Date temporada;
+
+	private String horario;
 	
 	public Parque(String direccion, String nombre, int capacidad) {
 		this.direccion= direccion;
@@ -71,7 +81,16 @@ public class Parque implements Serializable {
 	public boolean getAbierto() {
 		return abierto;
 	}
-	
+	public void crearAtraccion(String nombre, String tipo, int capacidad) {
+	    Atraccion atr;
+	    if (tipo.equalsIgnoreCase("mecanica")) {
+	        atr = new AtraccionMecanica(nombre, capacidad, "Zona A", 2, "ninguna", new Date(), capacidad, capacidad, tipo);
+	    } else {
+	        atr = new AtraccionMecanica(nombre, capacidad, "Zona B", 1, "ninguna", new Date(), capacidad, capacidad, tipo);
+	    }
+	    agregaratraccion(atr);
+	}
+
 	public void agregaratraccion(Atraccion atraccion) {
 		atracciones.addLast(atraccion);
 	}
@@ -154,6 +173,7 @@ public class Parque implements Serializable {
 		return usuarios.remove(usuario.getUsuario(), usuario);
 	}
 	
+	@SuppressWarnings("unlikely-arg-type")
 	public void eliminarAtraccion(String nombre2) {
 		int i=0;
 		boolean noEncontrado= true;
@@ -426,15 +446,45 @@ public class Parque implements Serializable {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
-	public void crearAtraccion(String nombre2, String tipo, int capacidad2) {
-		// TODO Auto-generated method stub
-		
+	public void setUbicacion(String ubi) {
+	    this.ubicacion = ubi;
 	}
 
-	public Atraccion buscarAtraccionPorNombre(String nombre2) {
-		// TODO Auto-generated method stub
-		return null;
+	public void setEmpleadosMin(int emp) {
+	    this.empleadosMin = emp;
+	}
+
+	public void setExclusividad(String exclu) {
+	    this.exclusividad = exclu;
+	}
+
+	public void setTemporada(Date temp) {
+	    this.temporada = temp;
+	}
+
+	public String getHorario() {
+	    return this.horario;
+	}
+	
+	public void setHorario(String horario) {
+	    this.horario = horario;
+	}
+
+
+	public String getUbicacion() {
+	    return this.ubicacion;
+	}
+
+	public int getEmpleadosMin() {
+	    return this.empleadosMin;
+	}
+
+	public String getExclusividad() {
+	    return this.exclusividad;
+	}
+
+	public Date getTemporada() {
+	    return this.temporada;
 	}
 
 	public void crearEmpleado(String nombre2, String rol, String id) {
@@ -452,15 +502,31 @@ public class Parque implements Serializable {
 		
 	}
 
-	public Object getTotalTiquetesVendidos() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 	public Object getIngresosTotales() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
+	public Object getTotalTiquetesVendidos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Atraccion buscarAtraccionPorNombre(String nombre2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void mostrarClientes() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void cerrarVentana() {
+		// TODO Auto-generated method stub
+		
+	}
 	
+
+
 }

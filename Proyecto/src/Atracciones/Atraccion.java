@@ -141,12 +141,10 @@ public abstract class Atraccion implements Serializable {
 			i++;
 		}
 	}
-	
-	@Override
-    public String toString( )
-    {
-        return nombre;
-    }
 
-	public abstract void setTipo(String nuevoTipo);
+	public void setTipo(String nuevoTipo) {
+		// TODO Auto-generated method stub
+		
+	}
+	
 }

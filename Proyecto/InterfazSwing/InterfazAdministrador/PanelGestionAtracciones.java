@@ -11,16 +11,13 @@ import java.util.List;
 
 public class PanelGestionAtracciones extends JPanel {
 
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-	private JTable tablaAtracciones;
+    private static final long serialVersionUID = 1L;
+    private JTable tablaAtracciones;
     private DefaultTableModel modeloTabla;
     private Parque parque;
 
     public PanelGestionAtracciones() {
-        this.parque = Parque.getInstance(); // Suponiendo patrón Singleton
+        this.parque = Parque.getInstance(); // Singleton
 
         setLayout(new BorderLayout());
 
@@ -57,20 +54,25 @@ public class PanelGestionAtracciones extends JPanel {
     }
 
     private void agregarAtraccion() {
-        // Puedes reemplazar esto con un diálogo personalizado más adelante
-        String nombre = JOptionPane.showInputDialog("Nombre de la atracción:");
-        String tipo = JOptionPane.showInputDialog("Tipo:");
-        int capacidad = Integer.parseInt(JOptionPane.showInputDialog("Capacidad:"));
+        try {
+            String nombre = JOptionPane.showInputDialog("Nombre de la atracción:");
+            String tipo = JOptionPane.showInputDialog("Tipo (mecanica / no mecanica):");
+            int capacidad = Integer.parseInt(JOptionPane.showInputDialog("Capacidad:"));
 
-        parque.crearAtraccion(nombre, tipo, capacidad); // Método a implementar si no existe
-        cargarAtracciones();
+            // Llamamos al método del Parque para crear la atracción
+            parque.crearAtraccion(nombre, tipo, capacidad);
+
+            cargarAtracciones();
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(this, "Error al crear atracción: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+        }
     }
 
     private void editarAtraccion() {
         int fila = tablaAtracciones.getSelectedRow();
         if (fila != -1) {
             String nombre = (String) modeloTabla.getValueAt(fila, 0);
-            Atraccion atr = parque.buscarAtraccionPorNombre(nombre); // Método auxiliar
+            Atraccion atr = parque.buscarAtraccionPorNombre(nombre);
 
             String nuevoNombre = JOptionPane.showInputDialog("Nuevo nombre:", atr.getNombre());
             String nuevoTipo = JOptionPane.showInputDialog("Nuevo tipo:", atr.getTipo());
@@ -81,6 +83,8 @@ public class PanelGestionAtracciones extends JPanel {
             atr.setCapacidad(nuevaCapacidad);
 
             cargarAtracciones();
+        } else {
+            JOptionPane.showMessageDialog(this, "Selecciona una atracción para editar.", "Atención", JOptionPane.WARNING_MESSAGE);
         }
     }
 
@@ -88,8 +92,10 @@ public class PanelGestionAtracciones extends JPanel {
         int fila = tablaAtracciones.getSelectedRow();
         if (fila != -1) {
             String nombre = (String) modeloTabla.getValueAt(fila, 0);
-            parque.eliminarAtraccion(nombre); // Método auxiliar necesario
+            parque.eliminarAtraccion(nombre);
             cargarAtracciones();
+        } else {
+            JOptionPane.showMessageDialog(this, "Selecciona una atracción para eliminar.", "Atención", JOptionPane.WARNING_MESSAGE);
         }
     }
 }

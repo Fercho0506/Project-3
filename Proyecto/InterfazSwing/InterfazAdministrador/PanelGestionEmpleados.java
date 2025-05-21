@@ -11,11 +11,8 @@ import java.util.List;
 
 public class PanelGestionEmpleados extends JPanel {
 
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-	private JTable tablaEmpleados;
+    private static final long serialVersionUID = 1L;
+    private JTable tablaEmpleados;
     private DefaultTableModel modeloTabla;
     private Parque parque;
 
@@ -57,27 +54,41 @@ public class PanelGestionEmpleados extends JPanel {
     }
 
     private void agregarEmpleado() {
-        String nombre = JOptionPane.showInputDialog("Nombre del empleado:");
-        String rol = JOptionPane.showInputDialog("Rol del empleado:");
-        String id = JOptionPane.showInputDialog("ID del empleado:");
+        try {
+            String nombre = JOptionPane.showInputDialog("Nombre del empleado:");
+            String rol = JOptionPane.showInputDialog("Rol del empleado:");
+            String id = JOptionPane.showInputDialog("ID del empleado:");
 
-        parque.crearEmpleado(nombre, rol, id); // Método a implementar
-        cargarEmpleados();
+            if (nombre == null || rol == null || id == null || nombre.isBlank() || rol.isBlank() || id.isBlank()) {
+                JOptionPane.showMessageDialog(this, "Todos los campos son obligatorios.");
+                return;
+            }
+
+            parque.crearEmpleado(nombre, rol, id); // Método en Parque
+            cargarEmpleados();
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(this, "Error al agregar empleado: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+        }
     }
 
     private void editarEmpleado() {
         int fila = tablaEmpleados.getSelectedRow();
         if (fila != -1) {
             String id = (String) modeloTabla.getValueAt(fila, 2);
-            Empleado emp = parque.buscarEmpleadoPorId(id); // Método auxiliar
+            Empleado emp = parque.buscarEmpleadoPorId(id); // Método auxiliar en Parque
 
-            String nuevoNombre = JOptionPane.showInputDialog("Nuevo nombre:", emp.getNombre());
-            String nuevoRol = JOptionPane.showInputDialog("Nuevo rol:", emp.getRol());
+            if (emp != null) {
+                String nuevoNombre = JOptionPane.showInputDialog("Nuevo nombre:", emp.getNombre());
+                String nuevoRol = JOptionPane.showInputDialog("Nuevo rol:", emp.getRol());
 
-            emp.setNombre(nuevoNombre);
-            emp.setRol(nuevoRol);
-
-            cargarEmpleados();
+                if (nuevoNombre != null && nuevoRol != null && !nuevoNombre.isBlank() && !nuevoRol.isBlank()) {
+                    emp.setNombre(nuevoNombre);
+                    emp.setRol(nuevoRol);
+                    cargarEmpleados();
+                }
+            }
+        } else {
+            JOptionPane.showMessageDialog(this, "Selecciona un empleado para editar.");
         }
     }
 
@@ -85,8 +96,10 @@ public class PanelGestionEmpleados extends JPanel {
         int fila = tablaEmpleados.getSelectedRow();
         if (fila != -1) {
             String id = (String) modeloTabla.getValueAt(fila, 2);
-            parque.eliminarEmpleado(id); // Método a implementar
+            parque.eliminarEmpleado(id); // Método en Parque
             cargarEmpleados();
+        } else {
+            JOptionPane.showMessageDialog(this, "Selecciona un empleado para eliminar.");
         }
     }
 }

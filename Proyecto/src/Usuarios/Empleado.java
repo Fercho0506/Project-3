@@ -74,5 +74,5 @@ public abstract class Empleado extends Usuario{
 		// TODO Auto-generated method stub
 		
 	}
-	
+
 }

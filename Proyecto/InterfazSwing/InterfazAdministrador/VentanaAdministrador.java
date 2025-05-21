@@ -1,17 +1,21 @@
 package InterfazAdministrador;
 
 import javax.swing.*;
+
+import InterfazEmpleados.PanelEmpleados;
+import Modelo.Parque;
+
 import java.awt.*;
 
 public class VentanaAdministrador extends JFrame {
 
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-	private JPanel panelPrincipal;
+    private static final long serialVersionUID = 1L;
+    private JPanel panelPrincipal;
+    private Parque parque; // 💡 Referencia al parque
 
-    public VentanaAdministrador() {
+    public VentanaAdministrador(Parque parque) {
+        this.parque = parque;
+
         setTitle("Panel de Administrador");
         setSize(800, 600);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -39,7 +43,7 @@ public class VentanaAdministrador extends JFrame {
         JButton btnSalir = new JButton("Salir");
 
         btnAtracciones.addActionListener(_ -> mostrarPanel(new PanelGestionAtracciones()));
-        // Los demás botones pueden conectarse leg a sus respectivos paneles
+        btnEmpleados.addActionListener(_ -> mostrarPanel(new PanelEmpleados(parque))); // ✅ Aquí conectamos PanelEmpleados
 
         btnSalir.addActionListener(_ -> dispose());
 
@@ -53,15 +57,18 @@ public class VentanaAdministrador extends JFrame {
     }
 
     private void mostrarPanel(JPanel nuevoPanel) {
-        panelPrincipal.remove(1);
+        panelPrincipal.remove(1); // Reemplaza el panel central
         panelPrincipal.add(nuevoPanel, BorderLayout.CENTER);
         panelPrincipal.revalidate();
         panelPrincipal.repaint();
     }
 
+    // Para pruebas
     public static void main(String[] args) {
+        Parque parque = Parque.getInstance(); // Asegúrate de que esta clase tenga un singleton funcional
         SwingUtilities.invokeLater(() -> {
-            new VentanaAdministrador().setVisible(true);
+            new VentanaAdministrador(parque).setVisible(true);
         });
     }
 }
+

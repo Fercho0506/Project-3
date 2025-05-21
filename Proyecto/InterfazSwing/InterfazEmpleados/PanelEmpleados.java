@@ -11,6 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 import LugarServicios.Cafeteria;
+import Modelo.Parque;
 import Usuarios.Cajero;
 import Usuarios.Cocinero;
 import Usuarios.Empleado;
@@ -18,8 +19,11 @@ import Usuarios.EmpleadoAtracciones;
 import Usuarios.EmpleadoServiciosgenerales;
 
 public class PanelEmpleados extends JPanel implements ActionListener{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private static final String CLIENTES = "clientes";
-    private static final String PASSWORD = "password";
     private static final String SALIR = "salir";
 	private JLabel info;
 	private JPanel turnos;
@@ -28,10 +32,10 @@ public class PanelEmpleados extends JPanel implements ActionListener{
 	private JButton abrirClientes;
 	//private JButton password;
 	private JButton salir;
-	private VentanaEmpleadosPrincipal ventanaPrincipal;
+	private Parque ventanaPrincipal;
 	
-	public PanelEmpleados( VentanaEmpleadosPrincipal ventanaPrincipal) {
-		this.ventanaPrincipal=ventanaPrincipal;
+	public PanelEmpleados( Parque parque) {
+		this.ventanaPrincipal=parque;
 		setLayout( new BoxLayout(this, BoxLayout.Y_AXIS));
 		
 		info= new JLabel("Mi info");

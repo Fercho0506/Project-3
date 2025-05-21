@@ -1,72 +1,70 @@
 package InterfazAdministrador;
 
 import javax.swing.*;
+import Modelo.Parque;
 import java.awt.*;
-import InterfazAdministrador.PanelGestionAtracciones;
-import InterfazAdministrador.PanelGestionEmpleados;
-import InterfazAdministrador.PanelReportes;
-import InterfazPrincipal.PanelAutenticarse;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class PanelConfiguracionParque extends JPanel {
 
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-	private JPanel panelContenido;
+    private static final long serialVersionUID = 1L;
+    private JTextField txtNombre;
+    private JTextField txtUbicacion;
+    private JTextField txtHorario;
 
-    public PanelConfiguracionParque() {
-        setTitle("Panel de Administrador");
-        setSize(800, 600);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
+    private Parque parque; // 💡 Referencia pasada desde VentanaAdministrador
 
-        JPanel panelMenu = new JPanel();
-        panelMenu.setLayout(new BoxLayout(panelMenu, BoxLayout.Y_AXIS));
+    public PanelConfiguracionParque(Parque parque) {
+        this.parque = parque;
 
-        JButton btnGestionAtracciones = new JButton("Gestionar Atracciones");
-        JButton btnGestionEmpleados = new JButton("Gestionar Empleados");
-        JButton btnVerReportes = new JButton("Ver Reportes");
-        JButton btnConfiguracion = new JButton("Configuración del Parque");
-        JButton btnCerrarSesion = new JButton("Cerrar Sesión");
+        setLayout(new BorderLayout());
 
-        btnGestionAtracciones.addActionListener(e -> mostrarPanel(new PanelGestionAtracciones()));
-        btnGestionEmpleados.addActionListener(e -> mostrarPanel(new PanelGestionEmpleados()));
-        btnVerReportes.addActionListener(e -> mostrarPanel(new PanelReportes()));
-        btnConfiguracion.addActionListener(e -> mostrarPanel(new PanelConfiguracionParque()));
-        btnCerrarSesion.addActionListener(e -> cerrarSesion());
+        JLabel lblTitulo = new JLabel("Configuración del Parque", SwingConstants.CENTER);
+        lblTitulo.setFont(new Font("Arial", Font.BOLD, 20));
+        add(lblTitulo, BorderLayout.NORTH);
 
-        panelMenu.add(btnGestionAtracciones);
-        panelMenu.add(btnGestionEmpleados);
-        panelMenu.add(btnVerReportes);
-        panelMenu.add(btnConfiguracion);
-        panelMenu.add(Box.createVerticalStrut(20));
-        panelMenu.add(btnCerrarSesion);
+        JPanel panelCampos = new JPanel(new GridLayout(3, 2, 10, 10));
+        panelCampos.setBorder(BorderFactory.createEmptyBorder(20, 50, 20, 50));
 
-        panelContenido = new JPanel(new BorderLayout());
-        panelContenido.add(new JLabel("Bienvenido, Administrador", SwingConstants.CENTER), BorderLayout.CENTER);
+        panelCampos.add(new JLabel("Nombre:"));
+        txtNombre = new JTextField();
+        panelCampos.add(txtNombre);
 
-        getContentPane().setLayout(new BorderLayout());
-        getContentPane().add(panelMenu, BorderLayout.WEST);
-        getContentPane().add(panelContenido, BorderLayout.CENTER);
-    }
+        panelCampos.add(new JLabel("Ubicación:"));
+        txtUbicacion = new JTextField();
+        panelCampos.add(txtUbicacion);
 
-    private void mostrarPanel(JPanel nuevoPanel) {
-        panelContenido.removeAll();
-        panelContenido.add(nuevoPanel, BorderLayout.CENTER);
-        panelContenido.revalidate();
-        panelContenido.repaint();
-    }
+        panelCampos.add(new JLabel("Horario:"));
+        txtHorario = new JTextField();
+        panelCampos.add(txtHorario);
 
-    private void cerrarSesion() {
-        dispose();
-        SwingUtilities.invokeLater(() -> {
-            JFrame ventanaLogin = new JFrame("Inicio de Sesión");
-            ventanaLogin.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            ventanaLogin.setSize(400, 300);
-            ventanaLogin.setLocationRelativeTo(null);
-            ventanaLogin.add(new PanelAutenticarse());
-            ventanaLogin.setVisible(true);
+        add(panelCampos, BorderLayout.CENTER);
+
+        JButton btnGuardar = new JButton("Guardar Cambios");
+        add(btnGuardar, BorderLayout.SOUTH);
+
+        cargarDatosParque();
+
+        btnGuardar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                guardarCambios();
+            }
         });
     }
-} 
+
+    private void cargarDatosParque() {
+        txtNombre.setText(parque.getNombre());
+        txtUbicacion.setText(parque.getUbicacion());
+        txtHorario.setText(parque.getHorario());
+    }
+
+    private void guardarCambios() {
+        parque.setNombre(txtNombre.getText());
+        parque.setUbicacion(txtUbicacion.getText());
+        parque.setHorario(txtHorario.getText());
+
+        JOptionPane.showMessageDialog(this, "¡Configuración guardada con éxito!");
+    }
+}
