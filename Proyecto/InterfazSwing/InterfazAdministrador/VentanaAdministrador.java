@@ -11,7 +11,7 @@ public class VentanaAdministrador extends JFrame {
 
     private static final long serialVersionUID = 1L;
     private JPanel panelPrincipal;
-    private Parque parque; // 💡 Referencia al parque
+    private Parque parque; 
 
     public VentanaAdministrador(Parque parque) {
         this.parque = parque;
@@ -43,7 +43,7 @@ public class VentanaAdministrador extends JFrame {
         JButton btnSalir = new JButton("Salir");
 
         btnAtracciones.addActionListener(_ -> mostrarPanel(new PanelGestionAtracciones()));
-        btnEmpleados.addActionListener(_ -> mostrarPanel(new PanelEmpleados(parque))); // ✅ Aquí conectamos PanelEmpleados
+        btnEmpleados.addActionListener(_ -> mostrarPanel(new PanelEmpleados(parque))); 
 
         btnSalir.addActionListener(_ -> dispose());
 
@@ -57,15 +57,15 @@ public class VentanaAdministrador extends JFrame {
     }
 
     private void mostrarPanel(JPanel nuevoPanel) {
-        panelPrincipal.remove(1); // Reemplaza el panel central
+        panelPrincipal.remove(1); 
         panelPrincipal.add(nuevoPanel, BorderLayout.CENTER);
         panelPrincipal.revalidate();
         panelPrincipal.repaint();
     }
 
-    // Para pruebas
+    
     public static void main(String[] args) {
-        Parque parque = Parque.getInstance(); // Asegúrate de que esta clase tenga un singleton funcional
+        Parque parque = Parque.getInstance(); 
         SwingUtilities.invokeLater(() -> {
             new VentanaAdministrador(parque).setVisible(true);
         });

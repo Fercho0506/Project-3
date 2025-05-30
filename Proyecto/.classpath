@@ -8,7 +8,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="InterfazSwing"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
-	<classpathentry kind="lib" path="/Users/juanfvanegas/Downloads/Proyecto/LibreriaQr/core-3.5.2.jar"/>
-	<classpathentry kind="lib" path="/Users/juanfvanegas/Downloads/Proyecto/LibreriaQr/javase-3.5.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/salaz/OneDrive/Escritorio/D.P.O.O/Project-3/core-3.5.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/salaz/OneDrive/Escritorio/D.P.O.O/Project-3/javase-3.5.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

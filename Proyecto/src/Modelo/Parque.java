@@ -35,6 +35,7 @@ public class Parque implements Serializable {
 	private List<Atraccion> atracciones;
 	private List<Espectaculo> espectaculos;
 	private List<LugarServicio> lugaresServicios;
+	private static Parque instancia1 = null;
 
 	private String ubicacion;
 
@@ -442,10 +443,19 @@ public class Parque implements Serializable {
 	    Persistencia.guardarObjeto(this, "parque.bin");
 	}
 
-	public static Parque getInstance() {
-		// TODO Auto-generated method stub
-		return null;
+	public static void inicializarParque(String direccion, String nombre, int capacidad) {
+	    if (instancia1 == null) {
+	        instancia1 = new Parque(direccion, nombre, capacidad);
+	    }
 	}
+
+	public static Parque getInstance() {
+	    if (instancia1 == null) {
+	        throw new IllegalStateException("Parque no ha sido inicializado. Llama primero a inicializarParque.");
+	    }
+	    return instancia1;
+	}
+
 	public void setUbicacion(String ubi) {
 	    this.ubicacion = ubi;
 	}
