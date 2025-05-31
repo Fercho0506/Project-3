@@ -1,0 +1,1148 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Página-1" id="tOyuT90sGGDg5ZbDUXXr">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.655;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.689;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-6" target="CsVkQ4ehS0E-cfV-W_VO-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2784.25" y="255.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-2" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-1">
+          <mxGeometry x="-0.2234" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-3" value="VentanaPrincipal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2578" y="50" width="288" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-4" value="&lt;font size=&quot;1&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;﻿RUTA_ARCHIVO = &quot;data/parque.bin&quot;: String&lt;/span&gt;&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;- ﻿parque: Parque&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-3">
+          <mxGeometry y="26" width="288" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-3">
+          <mxGeometry y="67" width="288" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-6" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ VentanaPrincipal(Parque parque): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+mostrarAutenticarse): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ mostrarRegistrarse): void + main(Stringl] args): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-3">
+          <mxGeometry y="75" width="288" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-7" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.164;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-11" target="CsVkQ4ehS0E-cfV-W_VO-22">
+          <mxGeometry x="0.7597" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-8" value="VentanaAutenticarse" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2297" y="273" width="222" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-9" value="- parque: Parque" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-8">
+          <mxGeometry y="26" width="222" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-8">
+          <mxGeometry y="52" width="222" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-11" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+VentanaAutenticarse(VentanaPrincipal principal, Parque parque): ctor&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+autenticarse(): void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cerrarVentana(): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-8">
+          <mxGeometry y="60" width="222" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3168" y="446.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-13" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-12">
+          <mxGeometry x="0.7373" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-14" value="VentanaRegistrarse" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2934" y="297" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-15" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-14">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-14">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-17" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-14">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-18" value="PanelOpciones" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2618" y="270" width="209" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-19" value="- ENTRAR = &quot;Autenticarse&quot;: String&lt;br&gt;﻿- REGISTRAR = &quot;Registrarse&quot;: String&lt;div&gt;&lt;br&gt;﻿- butAutenticar: JButton&lt;br&gt;&lt;br&gt;﻿- butRegistrar: JButton&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-18">
+          <mxGeometry y="26" width="209" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-18">
+          <mxGeometry y="126" width="209" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-21" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+PanelOpciones(VentanaPrincipal ventanaPrincipal): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+actionPerformed(ActionEvent e): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-18">
+          <mxGeometry y="134" width="209" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-22" value="PanelAutenticarse" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="563" width="160" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-23" value="- ﻿usuario: JTextField&lt;br&gt;&lt;br&gt;﻿- password: JTextField" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-22">
+          <mxGeometry y="26" width="160" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-22">
+          <mxGeometry y="75" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-25" value="+PanelAutenticarse): ctor&lt;br&gt;&lt;p style=&quot;margin: 0px; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ getUsuario: String&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+getPassword: String&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-22">
+          <mxGeometry y="83" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-26" value="PanelRegistrarse" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3094" y="447" width="152" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-27" value="- usuario: JTextField&lt;br&gt;&lt;br&gt;﻿- password: JTextField&lt;br&gt;&lt;br&gt;﻿- edad: JTextField&lt;br&gt;&lt;br&gt;﻿- estatura: JTextField" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-26">
+          <mxGeometry y="26" width="152" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-26">
+          <mxGeometry y="135" width="152" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-29" value="+PanelRegistrarse(): ctor&lt;div&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ getUsuario(): String&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+getPassword (): String&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+getEdad(): String&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;&amp;nbsp;getEstatura(): String&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-26">
+          <mxGeometry y="143" width="152" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-30" value="PanelValidar" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2433" y="546" width="201" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-31" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;CONTINUAR = &quot;continuar&quot;: String&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;CERRAR = &quot;cerrar&quot;: String&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;butContinuar: JButton&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;butCerrar: JButton&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-30">
+          <mxGeometry y="26" width="201" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-30">
+          <mxGeometry y="154" width="201" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-33" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+PanelValidar(VentanaAutenticarse ventanaPrincipal): ctor&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+actionPerformed(ActionEvent e): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-30">
+          <mxGeometry y="162" width="201" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-34" value="PanelValidarRegistro" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2807" y="502" width="239" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-35" value="&lt;br&gt;﻿- CONTINUAR = &quot;registrarse&quot;: String&lt;br&gt;&lt;br&gt;﻿- CERRAR = &quot;cerrar&quot;: String&lt;br&gt;&lt;br&gt;﻿- butContinuar: JButton&lt;br&gt;&lt;br&gt;﻿- butCerrar: JButton" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-34">
+          <mxGeometry y="26" width="239" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-34">
+          <mxGeometry y="166" width="239" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-37" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+PanelValidarRegistro(VentanaRegistrarse ventanaPrincipal): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+actionPerformed(ActionEvent e): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-34">
+          <mxGeometry y="174" width="239" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.503;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-18" target="CsVkQ4ehS0E-cfV-W_VO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-39" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-38">
+          <mxGeometry x="0.1206" y="-4" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-6" target="CsVkQ4ehS0E-cfV-W_VO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-41" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-40">
+          <mxGeometry x="0.8365" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-6" target="CsVkQ4ehS0E-cfV-W_VO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-43" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-42">
+          <mxGeometry x="0.8264" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.864;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-14" target="CsVkQ4ehS0E-cfV-W_VO-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-45" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-44">
+          <mxGeometry x="0.7949" y="2" relative="1" as="geometry">
+            <mxPoint x="3" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2951" y="382" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2869" y="460" />
+              <mxPoint x="2951" y="460" />
+              <mxPoint x="2951" y="384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-47" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-46">
+          <mxGeometry x="0.8649" relative="1" as="geometry">
+            <mxPoint x="-7" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.159;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.752;exitY=1.016;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-11" target="CsVkQ4ehS0E-cfV-W_VO-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2465" y="414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-49" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-48">
+          <mxGeometry x="0.5384" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.913;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CsVkQ4ehS0E-cfV-W_VO-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2500" y="543" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2500" y="455" />
+              <mxPoint x="2500" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-51" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-50">
+          <mxGeometry x="0.7006" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-52" target="CsVkQ4ehS0E-cfV-W_VO-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2180" y="-320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-52" value="VentanaClientesPrincipal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="20" width="220" height="258" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-53" value="-parque: Parque&lt;br&gt;﻿-usuario: Usuario&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-52">
+          <mxGeometry y="26" width="220" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-52">
+          <mxGeometry y="60" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-55" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ VentanaClientesPrincipal(Parque parque, Usuario usuario, JFrame ventana): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ mostrarComprarTiquetes(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ mostrarTiquetes(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ mostrarCompras(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ mostrarEntrarParque(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cerrarVentana(): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-52">
+          <mxGeometry y="68" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-56" value="VentanaComprarTiquetes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="425" width="220" height="368" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-57" value="-﻿parque: Parque&lt;br&gt;﻿-usuario: Usuario&lt;br&gt;﻿-tiquetes: ArrayList&amp;lt;Tiquete &amp;gt;&lt;br&gt;﻿-fastPass: ArrayList&amp;lt;FastPass&amp;gt;&lt;br&gt;﻿-opciones: PanelOpciones" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-56">
+          <mxGeometry y="26" width="220" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-56">
+          <mxGeometry y="140" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-59" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ VentanaComprarTiquetes(Parque parque, Usuario usuario, VentanaClientesPrincipal ventanaPrincipal): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ mostrarRegular): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ mostrarTemporada(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ mostrarEntrada(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+actualizar Detalles(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cerrar Ventana(: void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+accionDesdePanel0: void&lt;/p&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-56">
+          <mxGeometry y="148" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.861;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.109;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-60" target="CsVkQ4ehS0E-cfV-W_VO-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-186" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-185">
+          <mxGeometry x="0.7851" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.436;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-60" target="CsVkQ4ehS0E-cfV-W_VO-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="830.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-191" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-189">
+          <mxGeometry x="0.3081" y="1" relative="1" as="geometry">
+            <mxPoint x="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-60" value="VentanaVerTiquetes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="538" y="426" width="190" height="368" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-61" value="﻿-opciones: PanelOpciones&lt;br&gt;﻿-ventanalmprimir: VentanalmprimirTiquete&lt;br&gt;-﻿usuario: Usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-60">
+          <mxGeometry y="26" width="190" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-62" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-60">
+          <mxGeometry y="150" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-63" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ Ventana VerTiquetes (VentanaClientesPrincipal ventanaPrincipal, Usuario usuario): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-actualizarTiquetes): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cambiar TiqueteSeleccionado(Tiquete tiquete): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-cerrarVentana(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+accionDesdePanel0: void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-60">
+          <mxGeometry y="158" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-64" value="VentanaEntrarParque" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="434" width="240" height="298" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-65" value="﻿-tiquetes: PanelListaTiquetes&lt;br&gt;﻿-detalles: PanelDetallles Tiquetes&lt;br&gt;﻿-opciones: PanelOpciones&lt;br&gt;﻿-parque: Parque&lt;br&gt;﻿-usuario: Usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-64">
+          <mxGeometry y="26" width="240" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-66" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-64">
+          <mxGeometry y="110" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-67" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ VentanaEntrarParque(VentanaClientes Principal ventanaPrincipal, Parque parque, Usuario usuario): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-actualizarTiquetes): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cambiarTiquete Seleccionado(Tiquete tiquete): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+accionDesdePanelQ: void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cerrar Ventana(): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-64">
+          <mxGeometry y="118" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-68" value="VentanaCompras" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="434" width="270" height="258" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-69" value="-VOLVER = &quot;volver&quot;: String&lt;br&gt;﻿-usuario: Usuario&lt;br&gt;﻿-volver: JButton" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-68">
+          <mxGeometry y="26" width="270" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-70" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-68">
+          <mxGeometry y="80" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-71" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ VentanaCompras(Usuario usuario, VentanaClientesPrincipal ventanaPrincipal): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-actualizarCompras(: void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cerrar Ventana): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cambiarCompraSeleccionada(Compra compra): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+actionPerformed(ActionEvent e): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-68">
+          <mxGeometry y="88" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-72" value="VentanaParque" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="812" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-73" value="-﻿parque: Parque&lt;br&gt;﻿-usuario: Usuario&lt;br&gt;﻿-tiquete: Tiquete&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-72">
+          <mxGeometry y="26" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-74" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-72">
+          <mxGeometry y="80" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-75" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ VentanaParque(VentanaClientesPrincipal ventanaPrincipal, Parque parque, Usuario usuario, Tiquete tiquete): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ mostrarAtraccion(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ mostrarEspectaculo(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ mostrarEntrada(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ salirParque(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cerrarVentana(): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-72">
+          <mxGeometry y="88" width="280" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-76" value="VentanaTiquetesRegular" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="908.5" width="260" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-77" value="-basico = 20: int&lt;br&gt;﻿-familiar = 30: int&lt;br&gt;﻿-oro = 40: int&lt;br&gt;﻿-diamante = 50: int&lt;br&gt;﻿-tiquetes: ArrayList&amp;lt;Tiquete &amp;gt;&lt;br&gt;﻿-opciones: PanelOpciones&lt;br&gt;﻿-usuario: Usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-76">
+          <mxGeometry y="26" width="260" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-78" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-76">
+          <mxGeometry y="130" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-79" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ VentanaTiquetesRegular(ArrayList&amp;lt;Tiquete&amp;gt; tiquetes, VentanaComprarTiquetes ventanaPrincipal, Usuario usuario): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ accionDesdePanel(): void + cerrarVentana(): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-76">
+          <mxGeometry y="138" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-80" value="VentanaTiquetesTemporada" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="890" width="190" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-81" value="-basico = 20: int&lt;br&gt;﻿-familiar = 30: int&lt;br&gt;﻿-oro = 40: int&lt;br&gt;﻿-diamante = 50: int&lt;br&gt;﻿-tiquetes: ArrayList&amp;lt;Tiquete&amp;gt;&lt;br&gt;﻿-opciones: PanelOpciones&lt;br&gt;﻿-usuario: Usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-80">
+          <mxGeometry y="26" width="190" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-82" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-80">
+          <mxGeometry y="140" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-83" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+VentanaTiquetes Temporada(ArrayList&amp;lt;Tiquete&amp;gt; tiquetes, VentanaComprarTiquetes ventanaPrincipal, Usuario usuario): ctor&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+accionDesdePanel(): void&lt;/p&gt;&lt;br&gt;&lt;br&gt;﻿-getExclusividad: int&lt;div&gt;&lt;br&gt;﻿-getTemporada(): String[]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cerrarVentana(): void&lt;/p&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-80">
+          <mxGeometry y="148" width="190" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-84" value="VentanaEntradas" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="908.5" width="270" height="298" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-85" value="-PRECIO_MEDIO = 10: int&lt;br&gt;﻿-PRECIO_ALTO = 20: int&lt;br&gt;﻿-tiquetes: ArrayList &amp;lt;Tiquete &amp;gt;&lt;br&gt;﻿-opciones: PanelOpciones&lt;br&gt;﻿-usuario: Usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-84">
+          <mxGeometry y="26" width="270" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-86" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-84">
+          <mxGeometry y="110" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-87" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ VentanaEntradas(VentanaComprarTiquetes ventanaPrincipal, Parque parque, ArrayList&amp;lt;Tiquete&amp;gt; tiquetes, Usuario usuario): ctor&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-actualizarAtracciones(Parque parque): void&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cambiarAtraccionSeleccionada (Atraccion seleccionado): void&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cerrar Ventana): void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+accionDesdePanel): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-84">
+          <mxGeometry y="118" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.094;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-103" target="CsVkQ4ehS0E-cfV-W_VO-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-262" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-261">
+          <mxGeometry x="0.9052" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-100" value="VentanaImprimirTiquetes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="833" width="240" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-101" value="-tiquete: Tiquete&lt;br&gt;﻿-qr: Imagelcon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-100">
+          <mxGeometry y="26" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-102" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-100">
+          <mxGeometry y="80" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-103" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ VentanalmprimirTiquete(Tiquete tiquete, Usuario usuario): ctor&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ generarQRBuffered|mage(String texto, int ancho, int alto): Bufferedlmage&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-generar Texto(): String&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-100">
+          <mxGeometry y="88" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-104" value="NotificationsListener&amp;lt;Inerface&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="-10" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-106" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-104">
+          <mxGeometry y="26" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-107" value="+ accionDesdePanel(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-104">
+          <mxGeometry y="34" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-108" value="PanelOpciones" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="80" width="310" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-109" value="-CERRAR = &quot;volver&quot;: String&lt;br&gt;﻿-CONTINUAR = &quot;continuar&quot;: String&lt;br&gt;﻿-ventanaAnterior: JFrame&lt;br&gt;﻿-ventanaPrincipal: Notifications Listener&lt;br&gt;﻿-cerrar: JButton&lt;br&gt;﻿-continuar: JButton" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-108">
+          <mxGeometry y="26" width="310" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-110" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-108">
+          <mxGeometry y="120" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-111" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ PanelOpciones(String texto, JFrame ventanaAnterior, NotificationsListener ventana Principal): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ actionPerformed(ActionEvent e): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-108">
+          <mxGeometry y="128" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-112" value="PanelClientesPrincipal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="24" width="280" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-113" value="﻿-COMPRAR = &quot;comprar&quot;: String&lt;br&gt;﻿-TIQUETES = &quot;tiquetes&quot;: String&lt;br&gt;﻿-COMPRAS = &quot;compras&quot;: String&lt;br&gt;﻿-ENTRAR = &quot;entrar&quot;: String&lt;br&gt;﻿-PASSWORD = &quot;password&quot;: String&lt;br&gt;﻿-SALIR = &quot;salir&quot;: String&lt;br&gt;﻿-comprar: Button&lt;br&gt;﻿-tiquetes: JButton&lt;br&gt;﻿-salir: JButton&lt;br&gt;﻿-entrar: JButton&lt;br&gt;﻿-compras: JButtonl" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-112">
+          <mxGeometry y="26" width="280" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-114" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-112">
+          <mxGeometry y="190" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-115" value="+ PanelClientesPrincipal(VentanaClientesPrincipal ventanaPrincipal): ctor&lt;div&gt;+ actionPerfomed(ActionEvent e): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-112">
+          <mxGeometry y="198" width="280" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-116" value="PanelComprarTiquetes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="431" width="250" height="358" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-117" value="-REGULAR = &quot;regular&quot;: String&lt;br&gt;﻿-TEMPORADA = &quot;temporada&quot;: String&lt;br&gt;﻿-ENTRADA = &quot;entrada&quot;: String&lt;br&gt;﻿-FAST = &quot;fast&quot;: String&lt;br&gt;﻿-regular: JButton&lt;br&gt;﻿-temporada: JButton&lt;br&gt;-﻿entrada: JButton&lt;br&gt;﻿-fast: JButton&lt;br&gt;﻿-detalles: JLabel&lt;br&gt;﻿-tiquetes: ArrayList&amp;lt;Tiquete &amp;gt;&lt;br&gt;﻿-fastPass: ArrayList&amp;lt;FastPass&amp;gt;&lt;br&gt;﻿-usuario: Usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-116">
+          <mxGeometry y="26" width="250" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-118" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-116">
+          <mxGeometry y="210" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-119" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+PanelComprarTiquetes (VentanaComprarTiquetes ventanaPrincipal, ArrayList&amp;lt;Tiquete&amp;gt; tiquetes, ArrayList&amp;lt;FastPass&amp;gt; fastPass, Usuario usuario): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+actionPerformed(ActionEvent e): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+setDetalles0: void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-116">
+          <mxGeometry y="218" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-120" value="PanelDetallesCompra" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1414" y="514" width="240" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-121" value="-tipo: JLabel&lt;br&gt;﻿-cantidadProductos: JLabel&lt;br&gt;﻿-codigo: JLabel&lt;br&gt;﻿-precio: JLabel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-120">
+          <mxGeometry y="26" width="240" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-122" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-120">
+          <mxGeometry y="90" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-123" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+PanelDetallesCompras(): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-actualizarCompra(String type, int cantidad, int code, float price): void +actualizarCompra(Compra compra): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-120">
+          <mxGeometry y="98" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-124" value="PanelListaAtraccion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1310" width="210" height="288" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-125" value="-dataModel: DefaultListModel&amp;lt;Atraccion &amp;gt;&lt;br&gt;-﻿atracciones: JList&amp;lt;Atraccion &amp;gt;&lt;br&gt;﻿-parque: Parque&lt;br&gt;﻿-atraccion: Atraccion&lt;br&gt;﻿-seleccionada: JLabel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-124">
+          <mxGeometry y="26" width="210" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-126" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-124">
+          <mxGeometry y="120" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-127" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ PanelListaAtraccion(Parque parque): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ actualizar Atracciones: void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ valueChanged(ListSelectionEvent e): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ seleccionarAtraccion (Atraccion atraccion): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ getAtraccion(): Atraccion&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-124">
+          <mxGeometry y="128" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-128" value="PanelListaTiquetes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1776" width="240" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-129" value="-usuario: Usuario&lt;br&gt;﻿-dataModel: DefaultListModel&amp;lt;Tiquete&amp;gt;&lt;br&gt;﻿-tiquetes: JList&amp;lt; Tiquete &amp;gt;&lt;br&gt;﻿-tiquete: Tiquete&lt;br&gt;﻿-panelDetalles: PanelDetallles Tiquetes" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-128">
+          <mxGeometry y="26" width="240" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-130" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-128">
+          <mxGeometry y="110" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-131" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ PanelListaTiquetes(Usuario usuario, PanelDetalllesTiquetes panelDetalles): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ actualizar Tiquetes(: void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ value Changed(ListSelectionEvent e): void + seleccionarTiquete(Tiquete tiquete): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ get Tiquete0: Tiquete&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-128">
+          <mxGeometry y="118" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-132" value="PanelParque" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="918.5" width="200" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-133" value="-ATRACCION = &quot;atraccion&quot;: String&lt;br&gt;﻿-ESPECTACULO = &quot;espectaculo&quot;: String&lt;br&gt;﻿-CERRAR = &quot;salir&quot;: String&lt;br&gt;﻿-ENTRADA = &quot;entrada&quot;: String&lt;br&gt;﻿-atraccion: JButton&lt;br&gt;﻿-espectaculo: JButton&lt;br&gt;﻿-salir: JButton&lt;br&gt;﻿-entrada: JButton" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-132">
+          <mxGeometry y="26" width="200" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-134" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-132">
+          <mxGeometry y="160" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-135" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ PanelParque(VentanaParque ventanaPrincipal): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+actionPerformed(ActionEvent e): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-132">
+          <mxGeometry y="168" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-136" value="PanelListaEspectaculos" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1226" y="1540" width="260" height="284" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-137" value="-dataModel: DefaultListModel &amp;lt;Espectaculo &amp;gt;&lt;br&gt;﻿-espectaculos: JList&amp;lt;Espectaculo&amp;gt;&lt;br&gt;﻿-parque: Parque&lt;br&gt;﻿-espectaculo: Espectaculo&lt;br&gt;﻿-seleccionado: JLabel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-136">
+          <mxGeometry y="26" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-138" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-136">
+          <mxGeometry y="106" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-139" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ PanelListaEspectaculos(Parque parque): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ actualizar Espectaculos(: void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ valueChanged(ListSelectionEvent e): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ seleccionarEspectaculo(Espectaculo espectaculo): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+getEspectaculo): Espectaculo&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-136">
+          <mxGeometry y="114" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-140" value="PanelEscogerExclusividad" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="1252" width="200" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-141" value="-BASICO = &quot;basico&quot;: String&lt;br&gt;﻿-FAMILIAR = &quot;familiar&quot;: String&lt;br&gt;﻿-ORO = &quot;oro&quot;: String&lt;br&gt;﻿-DIAMANTE = &quot;diamante&quot;: String&lt;br&gt;﻿-basico: JRadioButton&lt;br&gt;﻿-familiar: JRadioButton&lt;br&gt;﻿-oro: JRadioButton&lt;br&gt;﻿-diamante: JRadioButton&lt;br&gt;﻿-opcion: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-140">
+          <mxGeometry y="26" width="200" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-142" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-140">
+          <mxGeometry y="160" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-143" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ PanelEscogerExclusividad0: ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+actionPerformed(ActionEvent e): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+getOpcion(): String&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-140">
+          <mxGeometry y="168" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-144" value="PanelEscogerTemporada" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1400" width="190" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-145" value="-PRIMAVERA = primavera: string&lt;br&gt;﻿-VERANO = &quot;verano&quot;: String&lt;br&gt;﻿-OTONO = &quot;otoño&quot;: String&lt;br&gt;﻿﻿-INVIERNO = &quot;invierno&quot;: String&lt;br&gt;﻿-primavera: JRadioButton&lt;br&gt;﻿-verano: JRadioButton&lt;br&gt;﻿-otono: JRadioButton&lt;br&gt;﻿-invierno: JRadioButton&lt;br&gt;﻿-opcion: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-144">
+          <mxGeometry y="26" width="190" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-146" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-144">
+          <mxGeometry y="160" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-147" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ PanelEscoger Temporada): ctor + actionPerformed(ActionEvent e): void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+getOpcion: String&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-144">
+          <mxGeometry y="168" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-148" value="PanelDetallesTiquetes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1789" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-149" value="-tipo: JLabe&lt;br&gt;﻿-exclusividad: JLabe&lt;br&gt;﻿-temporada: JLabel&lt;br&gt;﻿-fastPass: JLabel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-148">
+          <mxGeometry y="26" width="230" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-150" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-148">
+          <mxGeometry y="90" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-151" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ PanelDetallles Tiquetes(): ctor&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-actualizarTiquete(String type, String exclu, String temp, int fast): void +actualizarTiquete(Tiquete tiquete, int fast): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-148">
+          <mxGeometry y="98" width="230" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-152" value="PanelListaCompras" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="750" width="230" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-153" value="-usuario: Usuario&lt;br&gt;﻿-dataModel: DefaultListModel &amp;lt;Compra&amp;gt;&lt;br&gt;﻿-compras: JList&amp;lt;Compra&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-152">
+          <mxGeometry y="26" width="230" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-154" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-152">
+          <mxGeometry y="80" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-155" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ PanelListaCompras(Usuario usuario, VentanaCompras ventanaPrincipal): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+actualizar Compras0: void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ valueChanged(ListSelectionEvent e): void + seleccionarCompra(Compra compra): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-152">
+          <mxGeometry y="88" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-160" value="VentanaEntradasTaquilla" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1210" width="300" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-161" value="-PRECIO_MEDIO = 10: int&lt;br&gt;﻿-PRECIO_ALTO = 20: int&lt;br&gt;﻿-tiquetes: ArrayList &amp;lt;Tiquete &amp;gt;&lt;br&gt;﻿-opciones: PanelOpciones&lt;br&gt;﻿-usuario: Usuario&lt;div&gt;- taquilla: Taquilla&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-160">
+          <mxGeometry y="26" width="300" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-162" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-160">
+          <mxGeometry y="140" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-163" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ VentanaEntradasTaquilla(VentanaComprarTiquetes ventanaPrincipal, Parque parque, ArrayList&amp;lt;Tiquete&amp;gt; tiquetes, Usuario usuario, Taquilla taquilla): ctor&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-actualizarAtracciones(Parque parque): void&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cambiarAtraccionSeleccionada (Atraccion seleccionado): void&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cerrar Ventana): void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+accionDesdePanel): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-160">
+          <mxGeometry y="148" width="300" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=-0.005;exitY=0.284;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-55" target="CsVkQ4ehS0E-cfV-W_VO-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-180" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-164">
+          <mxGeometry x="0.9397" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-55" target="CsVkQ4ehS0E-cfV-W_VO-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-179" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-165">
+          <mxGeometry x="0.8498" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.789;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-55" target="CsVkQ4ehS0E-cfV-W_VO-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-178" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-167">
+          <mxGeometry x="0.7466" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-53" target="CsVkQ4ehS0E-cfV-W_VO-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-177" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-168">
+          <mxGeometry x="0.8405" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-69" target="CsVkQ4ehS0E-cfV-W_VO-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-173" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-171">
+          <mxGeometry x="0.8463" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.183;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.805;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-71" target="CsVkQ4ehS0E-cfV-W_VO-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-174" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-172">
+          <mxGeometry x="0.5502" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.936;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-152" target="CsVkQ4ehS0E-cfV-W_VO-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-176" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-175">
+          <mxGeometry x="0.7823" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.132;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.286;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-68" target="CsVkQ4ehS0E-cfV-W_VO-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-182" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-181">
+          <mxGeometry x="0.7972" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.881;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CsVkQ4ehS0E-cfV-W_VO-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="874" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-184" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-183">
+          <mxGeometry x="0.6671" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.37;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CsVkQ4ehS0E-cfV-W_VO-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-188" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-187">
+          <mxGeometry x="0.9318" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-57" target="CsVkQ4ehS0E-cfV-W_VO-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-197" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-192">
+          <mxGeometry x="0.9326" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-59" target="CsVkQ4ehS0E-cfV-W_VO-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-196" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-193">
+          <mxGeometry x="0.8381" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.693;entryY=-0.003;entryDx=0;entryDy=0;exitX=0.528;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-59" target="CsVkQ4ehS0E-cfV-W_VO-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="730" as="sourcePoint" />
+            <mxPoint x="200" y="887" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="396" y="876" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-195" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-194">
+          <mxGeometry x="0.4641" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.337;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CsVkQ4ehS0E-cfV-W_VO-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="810" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-199" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-198">
+          <mxGeometry x="0.9362" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=-0.001;exitY=0.744;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-205" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-200">
+          <mxGeometry x="0.7658" y="1" relative="1" as="geometry">
+            <mxPoint x="-11" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.224;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.494;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-75" target="CsVkQ4ehS0E-cfV-W_VO-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-204" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-201">
+          <mxGeometry x="0.1019" y="2" relative="1" as="geometry">
+            <mxPoint x="11" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.999;exitY=0.594;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="1212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-203" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-202">
+          <mxGeometry x="0.8875" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.323;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-64" target="CsVkQ4ehS0E-cfV-W_VO-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-207" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-206">
+          <mxGeometry x="0.2404" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.765;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.483;exitY=-0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-160" target="CsVkQ4ehS0E-cfV-W_VO-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-209" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-208">
+          <mxGeometry x="-0.1677" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-210" value="VentanaIngresarAtraccion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1200" width="250" height="388" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-211" value="﻿-opciones: PanelOpciones&lt;br&gt;﻿-parque: Parque&lt;br&gt;﻿-usuario: Usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-210">
+          <mxGeometry y="26" width="250" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-212" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-210">
+          <mxGeometry y="130" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-213" value="&lt;p style=&quot;margin: 0px; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ VentanalngresarAtraccion(VentanaParque ventanaPrincipal, Parque parque, Usuario usuario): ctor&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+accionDesdePanel(): void&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-actualizarDatos(): void&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cambiar TiqueteSeleccionado(Tiquete tiquete): void&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cambiar AtraccionSeleccionada(Atraccion atraccion): void&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-cerrarVentana(): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-210">
+          <mxGeometry y="138" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-214" target="CsVkQ4ehS0E-cfV-W_VO-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-246" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-245">
+          <mxGeometry x="0.242" y="-2" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-214" value="VentanaIngresarEspectaculo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;gradientColor=default;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1210" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-215" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;﻿-opciones: PanelOpciones&lt;br&gt;﻿-parque: Parque&lt;br&gt;﻿-usuario: Usuario&lt;br&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-214">
+          <mxGeometry y="26" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-216" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-214">
+          <mxGeometry y="80" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-217" value="&lt;p style=&quot;margin: 0px; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ VentanalngresarEspectaculo(VentanaParque ventanaPrincipal, Parque parque, Usuario usuario): ctor&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+accionDesdePanel(: void&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-actualizarDatos(): void&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cambiarEspectaculoSeleccionado(Espectaculo espectaculo): void&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-cerrarVentana(): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-214">
+          <mxGeometry y="88" width="280" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.717;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.143;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-214" target="CsVkQ4ehS0E-cfV-W_VO-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-219" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-218">
+          <mxGeometry x="0.8115" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.821;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.715;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-210" target="CsVkQ4ehS0E-cfV-W_VO-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-221" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-220">
+          <mxGeometry x="0.4738" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CsVkQ4ehS0E-cfV-W_VO-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="900" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-223" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-222">
+          <mxGeometry x="0.9073" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-224" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.838;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.833;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-80" target="CsVkQ4ehS0E-cfV-W_VO-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-225" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-224">
+          <mxGeometry x="0.7071" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.295;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-84" target="CsVkQ4ehS0E-cfV-W_VO-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-227" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-226">
+          <mxGeometry x="0.6344" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-228" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.308;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.703;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-3" target="CsVkQ4ehS0E-cfV-W_VO-52">
+          <mxGeometry x="0.9642" y="12" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2770" y="51" />
+              <mxPoint x="2770" y="-60" />
+              <mxPoint x="748" y="-60" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.454;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-75" target="CsVkQ4ehS0E-cfV-W_VO-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-232" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-229">
+          <mxGeometry x="0.94" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.025;exitY=0.302;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.987;entryY=0.391;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-133" target="CsVkQ4ehS0E-cfV-W_VO-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-231" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-230">
+          <mxGeometry x="0.9209" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.219;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-84" target="CsVkQ4ehS0E-cfV-W_VO-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-236" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-233">
+          <mxGeometry x="0.6462" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.014;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-213" target="CsVkQ4ehS0E-cfV-W_VO-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-237" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-234">
+          <mxGeometry x="0.4655" y="1" relative="1" as="geometry">
+            <mxPoint x="-19" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.42;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.545;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-163" target="CsVkQ4ehS0E-cfV-W_VO-127">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1043" y="1690" />
+              <mxPoint x="388" y="1690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-238" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-235">
+          <mxGeometry x="0.9564" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.447;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-80" target="CsVkQ4ehS0E-cfV-W_VO-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-240" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-239">
+          <mxGeometry x="0.2629" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.016;exitY=0.761;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-83" target="CsVkQ4ehS0E-cfV-W_VO-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-242" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-241">
+          <mxGeometry x="0.0961" y="3" relative="1" as="geometry">
+            <mxPoint x="-23" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-76" target="CsVkQ4ehS0E-cfV-W_VO-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-244" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-243">
+          <mxGeometry x="0.5516" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.016;entryY=0.282;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-128" target="CsVkQ4ehS0E-cfV-W_VO-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-248" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-247">
+          <mxGeometry x="0.2725" y="-1" relative="1" as="geometry">
+            <mxPoint x="-4" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.095;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-117" target="CsVkQ4ehS0E-cfV-W_VO-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-251" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-249">
+          <mxGeometry x="0.9016" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.01;entryY=0.129;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.01;exitY=0.271;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-57" target="CsVkQ4ehS0E-cfV-W_VO-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-252" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-250">
+          <mxGeometry x="0.915" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-253" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.156;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.004;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-113" target="CsVkQ4ehS0E-cfV-W_VO-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-255" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-253">
+          <mxGeometry x="0.9081" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.013;entryY=0.137;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.016;exitY=0.779;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-53" target="CsVkQ4ehS0E-cfV-W_VO-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-256" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-254">
+          <mxGeometry x="0.8564" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.693;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-210" target="CsVkQ4ehS0E-cfV-W_VO-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-260" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-257">
+          <mxGeometry x="0.6385" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.235;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-213">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="1790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="669" y="1620" />
+              <mxPoint x="510" y="1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-259" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-258">
+          <mxGeometry x="0.8481" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-263" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.992;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-63" target="CsVkQ4ehS0E-cfV-W_VO-149">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1825.8823529411766" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="518" y="689" />
+              <mxPoint x="518" y="1305" />
+              <mxPoint x="540" y="1305" />
+              <mxPoint x="540" y="1826" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-264" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-263">
+          <mxGeometry x="0.9467" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.071;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-63" target="CsVkQ4ehS0E-cfV-W_VO-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-266" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-265">
+          <mxGeometry x="0.9696" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.093;entryY=-0.008;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-267" target="CsVkQ4ehS0E-cfV-W_VO-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3610" y="-120" />
+              <mxPoint x="700" y="-120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-280" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-279">
+          <mxGeometry x="0.9915" relative="1" as="geometry">
+            <mxPoint x="-10" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-267" value="VentanaPrincipalEmpleados" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3520" y="50" width="180" height="258" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-268" value="&lt;br&gt;﻿-parque: Parque&lt;br&gt;&lt;br&gt;﻿-empleado: Empleado&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-267">
+          <mxGeometry y="26" width="180" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-269" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-267">
+          <mxGeometry y="100" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-270" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+VentanaEmpleadosPrincipal(Parque parque, Empleado empleado, VentanaPrincipal ventanaPrincipal): ctor&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+mostrarClientes(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;-actualizarEmpleado(): void&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+ cerrarVentana(): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-267">
+          <mxGeometry y="108" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-271" value="PanelEmpleados" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3800" y="40" width="270" height="468" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-272" value="-CLIENTES = &quot;clientes&quot;: String&lt;br&gt;&lt;br&gt;﻿-PASSWORD = &quot;password&quot;: String&lt;br&gt;&lt;br&gt;﻿-SALIR = &quot;salir&quot;: String&lt;br&gt;&lt;br&gt;﻿-info: JLabel&lt;br&gt;&lt;br&gt;﻿-turnos: JPanel&lt;br&gt;&lt;br&gt;﻿-labor: JLabel&lt;br&gt;&lt;br&gt;﻿-lugar Trabajo: JLabel&lt;br&gt;&lt;br&gt;﻿-abrirClientes: JButton&lt;br&gt;&lt;br&gt;﻿-salir: JButton" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-271">
+          <mxGeometry y="26" width="270" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-273" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-271">
+          <mxGeometry y="280" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-274" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+PanelEmpleados(VentanaEmpleadosPrincipal ventanaPrincipal): ctor&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+actualizarEmpleado(Empleado empleado): void&lt;/p&gt;﻿-actualizarInfo(Empleado empleado): void&lt;br&gt;&lt;br&gt;﻿-actualizarTurnos(Empleado empleado): void&lt;br&gt;&lt;br&gt;﻿-actualizarLabor(Empleado empleado): void&lt;br&gt;&lt;br&gt;﻿-actualizarLugar(Empleado empleado): void&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;+actionPerformed(ActionEvent e): void&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-271">
+          <mxGeometry y="288" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.655;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-270" target="CsVkQ4ehS0E-cfV-W_VO-272">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-284" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-275">
+          <mxGeometry x="0.6254" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-276" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.007;entryY=0.23;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-272" target="CsVkQ4ehS0E-cfV-W_VO-270">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-283" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-276">
+          <mxGeometry x="0.5989" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-4" target="CsVkQ4ehS0E-cfV-W_VO-268">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-282" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-277">
+          <mxGeometry x="0.927" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.902;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CsVkQ4ehS0E-cfV-W_VO-268" target="CsVkQ4ehS0E-cfV-W_VO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CsVkQ4ehS0E-cfV-W_VO-281" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="CsVkQ4ehS0E-cfV-W_VO-278">
+          <mxGeometry x="0.9357" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LtmdOL-MiOt9_VNBmHZo-1" target="CsVkQ4ehS0E-cfV-W_VO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-1" value="VentanaAdministrador" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="-350" width="250" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-2" value="+ panelCentral: JPanel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-1">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-5" value="+ parque: Parque" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-1">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-6" value="+ usuario: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-1">
+          <mxGeometry y="78" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-1">
+          <mxGeometry y="104" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-4" value="+ VentanaAdministrador(String Usuario): ctor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-1">
+          <mxGeometry y="112" width="250" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-7" value="+ crearPaneles(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-1">
+          <mxGeometry y="150" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-8" value="+ mostrarPanel(String nombrePanel): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-1">
+          <mxGeometry y="176" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-10" value="PanelGestionEmpleados" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3098" y="-592" width="210" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-11" value="+ tablaEmpleados: JTable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-10">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-31" value="+ modeloTabla: DefaultTableModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-10">
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-32" value="+ parque: Parque" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-10">
+          <mxGeometry y="78" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-10">
+          <mxGeometry y="104" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-13" value="+ PanelGestionEmpleados():ctor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-10">
+          <mxGeometry y="112" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-33" value="+ cargarEmpleados(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-10">
+          <mxGeometry y="138" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-34" value="+ agregarEmpleado():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-10">
+          <mxGeometry y="164" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-35" value="+ editarEmpleado():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-10">
+          <mxGeometry y="190" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-36" value="+ eliminarEmpleado(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-10">
+          <mxGeometry y="216" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-14" value="PanelConfiguracionParque" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="-370" width="170" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-15" value="+parque: Parque" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-14">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-14">
+          <mxGeometry y="52" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-17" value="+ PanelConfiguracion():&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-14">
+          <mxGeometry y="60" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-27" value="+ guardarConfiguracion: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-14">
+          <mxGeometry y="86" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-18" value="PanelReportes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="-490" width="160" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-19" value="+parque: Parque" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-18">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-29" value="+areaReportes: JTextArea" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-18">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-18">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-21" value="+ PanelReportes(): ctor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-18">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-30" value="+ generarReporte(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-18">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-22" value="PanelGestionAtracciones" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="-680" width="200" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-23" value="+ tablaAtracciones: JTable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-22">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-37" value="+ modeloTabla: DefaultTableModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-22">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-38" value="+ parque: Parque" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-22">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-22">
+          <mxGeometry y="104" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-25" value="+ PanelGestionAtracciones():ctor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-22">
+          <mxGeometry y="112" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-39" value="+ cargarAtracciones():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-22">
+          <mxGeometry y="138" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-40" value="+ agregarAtraccion():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-22">
+          <mxGeometry y="164" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-41" value="+ editarAtraccion():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-22">
+          <mxGeometry y="190" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-42" value="+ eliminarAtraccion():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LtmdOL-MiOt9_VNBmHZo-22">
+          <mxGeometry y="216" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-45" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.451;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LtmdOL-MiOt9_VNBmHZo-27" target="LtmdOL-MiOt9_VNBmHZo-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2230" y="-680" as="sourcePoint" />
+            <mxPoint x="2390" y="-680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-46" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.35;exitY=1.192;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LtmdOL-MiOt9_VNBmHZo-30">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2458" y="-660" as="sourcePoint" />
+            <mxPoint x="2590" y="-350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-47" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.34;exitY=1.244;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LtmdOL-MiOt9_VNBmHZo-42" target="LtmdOL-MiOt9_VNBmHZo-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2706" y="-600" as="sourcePoint" />
+            <mxPoint x="2866" y="-600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2740" y="-400" />
+              <mxPoint x="2715" y="-400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtmdOL-MiOt9_VNBmHZo-48" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.429;exitY=1.141;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LtmdOL-MiOt9_VNBmHZo-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2830" y="-590" as="sourcePoint" />
+            <mxPoint x="2840" y="-345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
